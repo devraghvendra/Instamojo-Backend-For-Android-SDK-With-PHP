@@ -20,4 +20,4 @@ $payload = array(
 );
 ```
 
-##Download instamojo.php file and customize
+##Download instamojo.php file to use on your project
