@@ -19,3 +19,5 @@ $payload = array(
     'client_secret' => 'XXX',
 );
 ```
+
+##Download instamojo.php file and customize
