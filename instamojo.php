@@ -12,8 +12,8 @@ if(!empty($_POST)){
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     $payload = array(
     'grant_type' => 'client_credentials',
-    'client_id' => 'ojmu9nOO53seHWsJABWVkmD8qgOPOHmUO7qpgory',
-    'client_secret' => 'icWRp1KWooJxuwl57y4Gr7Xzos2L3LfkuVxfBDh2uDjCjiTANUtmKXlJlBaIeXeQIraUZ53e0VFmVaj3ctEen5I6Z163gXwu0E3NrEuTXwvMpxoF93izK5vIrXD5BmNJ',
+    'client_id' => 'XXXXXXXXXX',
+    'client_secret' => 'XXXXXXXXX',
 );
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($payload));
